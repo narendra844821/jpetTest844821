@@ -30,7 +30,7 @@ Examples:
 |Goldfish|
 
 @TS_05
-Scenario: Add to cart
+Scenario: Add to cart Dog
 Given the user launch the application
 When the user login with valid details
 Then the user should click dogs
@@ -103,7 +103,7 @@ Given the user should launch the application jpet
 When the user click on help
 Then  the user should able to get the link page
 @TS_17
-Scenario: Add to cart
+Scenario: Add to cart checkout
 Given the user launch the application jpet
 When the user login with valid details in jpet
 Then the user should click dogs in jpet homepage
