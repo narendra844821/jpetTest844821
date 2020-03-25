@@ -103,7 +103,7 @@ Given the user should launch the application jpet
 When the user click on help
 Then  the user should able to get the link page
 @TS_17
-Scenario: Add to cart checkout
+Scenario: Checkout
 Given the user launch the application jpet
 When the user login with valid details in jpet
 Then the user should click dogs in jpet homepage
