@@ -20,7 +20,7 @@ public class Valid_Login extends SetupClass  {
 	SigninPage signinpage;
 
 	
-	@Given("^the user should launch the applicatiob 3rd time$")
+	@Given("^the user should launch the application as first task$")
 public void the_user_lauch_application_3nd_time() {
 		
 		launchApplication("chrome", "https://petstore.octoperf.com/actions/Catalog.action");
